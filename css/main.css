@@ -67,3 +67,32 @@ nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
 }
+
+main {
+    height: 100vh;
+    background-image: url(../assets/img/Cover.png);
+    background-size: cover;
+    background-position: center;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .home-main-text{
+    color: white;
+    margin-top: 112px;
+    margin-bottom: 105px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-align: center;
+
+}
+
+main button {
+    width: 85px;
+    height: 36px;
+    font-weight: bold;
+    background-color: #48cfad;
+}
+
