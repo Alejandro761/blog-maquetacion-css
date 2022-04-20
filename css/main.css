@@ -1,3 +1,5 @@
+@import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap’);
+
 body{
     margin: 0;
     padding: 0;
@@ -71,8 +73,9 @@ nav .profile-link a {
 main {
     height: 100vh;
     background-image: url(../assets/img/Cover.png);
-    background-size: cover;
     background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,7 +89,7 @@ main .home-main-text{
     font-weight: 700;
     letter-spacing: 10px;
     text-align: center;
-
+    font-family: 'Roboto mono', monospace;
 }
 
 main button {
