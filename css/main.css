@@ -3,12 +3,15 @@
 body{
     margin: 0;
     padding: 0;
-    position: fixed;
+    font-family: 'Roboto mono', monospace;
+}
+
+.home-body {
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    font-family: 'Roboto mono', monospace;
+    position: fixed;
 }
 
 a {
@@ -120,13 +123,30 @@ nav .profile-link a {
     grid-column: 1;
 }
 
-.blogs-news-img-container img{
+.blogs-new-img-container img{
+    width: 85%;
 }
 
-.blogs-new-info-container {
+.blogs-news-info-container {
     grid-column: 2;
 }
 
-.blogs-new-info-container p{
+.blogs-news-info-container p{
     margin-bottom: 35px;
+}
+
+.blogs-posts-container {
+    padding: 0 50px 40px;
+}
+
+.blogs-posts-container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.blogs-button{
+    border: 1px solid #48cfad;
+    padding: 10px 15px;
+    font-size: 12px;
 }
