@@ -24,6 +24,7 @@ a {
     max-width: 980px;
     margin: auto;
 }
+
 header{
     width: 100%;
     height: 140px;
@@ -268,4 +269,18 @@ footer p {
 }
 .contact-main-container img {
     width: 100px;
+}
+
+.saludo-container{
+    height: 280px;
+    width: 100%;
+
+}
+
+.saludo-container div img{
+    width: 35%;
+}
+
+.saludo-container div div{
+
 }
