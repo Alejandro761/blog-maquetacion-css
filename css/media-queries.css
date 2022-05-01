@@ -1,0 +1,48 @@
+@media (max-width: 900px){
+    .blogs-main-new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+    }
+
+    .blogs-new-img-container {
+        grid-row: 2;
+    }
+
+    .blogs-news-info-container {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .blogs-posts-container .post-container{
+        max-width: 45%;
+    }
+
+    .saludo-container {
+        height: 400px;
+
+    }
+    .saludo-container div {
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+
+    .saludo-container div img{
+        margin: auto;
+        width: 40%;
+    }
+
+    .projects-container .projects-card {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr;
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .blogs-posts-container .post-container {
+        max-width: 95%;
+    }
+
+}
