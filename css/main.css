@@ -294,8 +294,18 @@ footer p {
     display: inline-block;
 }
 
+.projects-container {
+    height: 580px;
+}
 .projects-container h2 {
     text-align: center;
     padding: 40px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #e6e9ed ;
+}
+
+.projects-container .projects-card {
+    padding-top: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 33px;
 }
