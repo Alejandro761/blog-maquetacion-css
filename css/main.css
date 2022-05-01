@@ -272,9 +272,18 @@ footer p {
 }
 
 .saludo-container{
-    height: 280px;
+    height: 350px;
     width: 100%;
+    background-color: #e6e9ed;
+    display: flex;
+    align-items: center;
+}
 
+.saludo-container div{
+    /* margin-top: 35px; */
+    display: flex;
+    align-self: center;
+    gap: 25px;
 }
 
 .saludo-container div img{
@@ -282,5 +291,11 @@ footer p {
 }
 
 .saludo-container div div{
+    display: inline-block;
+}
 
+.projects-container h2 {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 1px solid black;
 }
